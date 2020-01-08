@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>quickfixengine</id>
+    <version>1.5.1.2</version>
+    <authors>quickfix</authors>
+    <owners>quickfix</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <!--<license type="file">LICENSE</license>-->
+    <projectUrl>https://github.com/quickfix/quickfix</projectUrl>
+    <description>
+      QuickFIX C++ Fix Engine Library
+   </description>
+    <releaseNotes>Version 1.15.1.</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>quickfix FixProtocol native</tags>
+  </metadata>
+  <files>
+		<file src="lib\**\*.*"       target="native\lib"     />
+		<file src="include\**\*.*"   target="native\include" />
+		<file src="docs\*"           target="native\docs"    />
+		<file src="LICENSE"        target="native" />
+		<file src="quickfixengine.props"   target="native" />
+	</files>
+</package>
