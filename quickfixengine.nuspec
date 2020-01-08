@@ -2,11 +2,11 @@
 <package >
   <metadata>
     <id>quickfixengine</id>
-    <version>1.5.1.2</version>
+    <version>1.5.1.3</version>
     <authors>quickfix</authors>
     <owners>quickfix</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <license type="expression">MIT</license>
+    <license type="file">native\LICENSE</license>
     <!--<license type="file">LICENSE</license>-->
     <projectUrl>https://github.com/quickfix/quickfix</projectUrl>
     <description>
@@ -20,7 +20,7 @@
 		<file src="lib\**\*.*"       target="native\lib"     />
 		<file src="include\**\*.*"   target="native\include" />
 		<file src="docs\*"           target="native\docs"    />
-		<file src="LICENSE"        target="native" />
+		<file src="LICENSE"        target="native\LICENSE" />
 		<file src="quickfixengine.props"   target="native" />
 	</files>
 </package>
