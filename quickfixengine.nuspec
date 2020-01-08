@@ -6,7 +6,7 @@
     <authors>quickfix</authors>
     <owners>quickfix</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <license type="file">native/LICENSE</license>
+    <license type="file">LICENSE</license>
     <!--<license type="file">LICENSE</license>-->
     <projectUrl>https://github.com/quickfix/quickfix</projectUrl>
     <description>
@@ -17,10 +17,10 @@
     <tags>quickfix FixProtocol native</tags>
   </metadata>
   <files>
-		<file src="lib\**\*.*"       target="native\lib"     />
-		<file src="include\**\*.*"   target="native\include" />
-		<file src="docs\*"           target="native\docs"    />
-		<file src="LICENSE"        target="native\LICENSE" />
-		<file src="quickfixengine.props"   target="native" />
+		<file src="lib\**\*.*"       target="build\native\lib"     />
+		<file src="include\**\*.*"   target="build\native\include" />
+		<file src="docs\*"           target="build\native\docs"    />
+		<file src="LICENSE"        target="LICENSE" />
+		<file src="quickfixengine.props"   target="build\native" />
 	</files>
 </package>
