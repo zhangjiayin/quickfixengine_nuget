@@ -15,6 +15,9 @@
     <releaseNotes>Version 1.15.1.</releaseNotes>
     <copyright>Copyright 2020</copyright>
     <tags>quickfix FixProtocol native</tags>
+    <dependencies>
+        <dependency id="zeroc.openssl.v140" version="1.0.2.6" />
+    </dependencies>
   </metadata>
   <files>
 		<file src="lib\**\*.*"       target="build\native\lib"     />
