@@ -15,7 +15,7 @@
     <ClCompile>	<AdditionalIncludeDirectories>$(MSBuildThisFileDirectory)\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>$(FilamentLibraries);%(AdditionalDependencies) 
+      <AdditionalDependencies>$(FilamentLibraries);%(AdditionalDependencies);ws2_32.lib 
       </AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
