@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>quickfixengine</id>
-    <version>1.15.1.5</version>
+    <version>1.15.1.6</version>
     <authors>quickfix</authors>
     <owners>quickfix</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -16,7 +16,7 @@
     <copyright>Copyright 2020</copyright>
     <tags>quickfix FixProtocol native</tags>
     <dependencies>
-        <dependency id="zeroc.openssl.v140" version="1.0.2.6" />
+        <dependency id="zeroc.openssl.v141" version="1.0.2.6" />
     </dependencies>
   </metadata>
   <files>
